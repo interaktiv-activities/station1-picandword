@@ -1,0 +1,142 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>STATION 1 - 4 Pics 1 Word</title>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="favicon.png">
+        <script defer src="script.js"></script>
+        <script defer src="animation.js"></script>
+    </head>
+
+    <body>
+        <div class="overlay start-screen" id="start-screen">
+            <span class="start-title">Ready to start<br>your adventure?</span>
+            <span class="start-header">Swipe the card to start the game!</span>
+            <div class="card-slot">
+                <img src="assets\start\top-card.png" class="front-scn" id="front-scn" draggable="false">
+                <img src="assets\start\card.png" class="card-img" id="swipe-card" draggable="false">
+                <img src="assets\start\bottom-card.png" class="back-scn" id="back-scn" draggable="false">
+            </div>
+        </div>
+
+        <div class="header" id="header">
+            <a href="https://interaktiv.benilde.edu.ph/?page_id=19999"><button class="left-header-btn header-btn" id="back-header-btn"><img id="back-btn-img" class="header-btn-img" src="assets/header/back.png"></button></a>
+            <button class="right-header-btn header-btn" id="mute-header-btn"><img id="mute-btn-img" class="header-btn-img" src="assets/header/unmute.png"></button>
+        </div>
+
+
+
+
+        <div class="container" id="container">
+            <div class="pass-msg msg hide" id="pass-msg">
+                <div class="overlay end-screen" id="pass-end-screen">
+                    <img src="assets/token.png" class="token-img">
+                    <div class="end-message">Congratulations! You have earned the</div>
+                    <div class="end-title">THE BENILDEAN KEYCHAIN!</div>
+                    <div class="end-message"> The secret code for the next Station is <b>BENILDEAN!</b> the expedition has ended and you can click the button bellow to head back to the station menu!</div>
+                    <a href="https://interaktiv.benilde.edu.ph/?page_id=19999"><button class="menu-btn" id="menu-btn"><img class="menu-btn-img" src="assets/menu-btn.png"></button></a>
+                </div>
+            </div>            
+            
+            <input type="image" src="ASSETS/" class="pass-msg msg hide" id="pass-msg">
+            <button class="menu-btn btn hide" id="menu-btn" onclick="window.location.href='https://interaktiv.benilde.edu.ph/?page_id=4171';">BACK TO MENU</button>
+
+        <div class="game-board" id="game-board">
+            <img src="ASSETS/.title-img.png" id="title-img-game" class="title-img-game hide">
+            <div id="level-text" class="level-text hide"> LEVEL 1 </div>
+            <div id="level-question" class="level-question hide" >THE PRACTICE OF ACCEPTANCE, EMPOWERMENT, AND INCLUSION OF EVERYONE</div>
+
+            <div class="images-container">
+                <div class="level1-images image-grid hide" id="level1-images">
+                    <img src="images/img1-1.png" class="img level1-images">
+                    <img src="images/img1-2.png" class="img level1-images">
+                    <img src="images/img1-3.png" class="img level1-images">
+                    <img src="images/img1-4.png" class="img level1-images">
+                </div>
+                <div class="level2-images image-grid hide" id="level2-images">
+                    <img src="images/img2-1.png" class="img level2-images">
+                    <img src="images/img2-2.png" class="img level2-images">
+                    <img src="images/img2-3.png" class="img level2-images">
+                    <img src="images/img2-4.png" class="img level2-images">
+                </div>
+                <div class="level3-images image-grid hide" id="level3-images">
+                    <img src="images/img3-1.png" class="img level3-images">
+                    <img src="images/img3-2.png" class="img level3-images">
+                    <img src="images/img3-3.png" class="img level3-images">
+                    <img src="images/img3-4.png" class="img level3-images">
+                </div>
+                <div class="level4-images image-grid hide" id="level4-images">
+                    <img src="images/img4-1.png" class="img level4-images">
+                    <img src="images/img4-2.png" class="img level4-images">
+                    <img src="images/img4-3.png" class="img level4-images">
+                    <img src="images/img4-4.png" class="img level4-images">
+                </div>
+                <div class="level5-images image-grid hide" id="level5-images">
+                    <img src="images/img5-1.png" class="img level5-images">
+                    <img src="images/img5-2.png" class="img level5-images">
+                    <img src="images/img5-3.png" class="img level5-images">
+                    <img src="images/img5-4.png" class="img level5-images">
+                </div>
+                <div class="level6-images image-grid hide" id="level6-images">
+                    <img src="images/img6-1.png" class="img level6-images">
+                    <img src="images/img6-2.png" class="img level6-images">
+                    <img src="images/img6-3.png" class="img level6-images">
+                    <img src="images/img6-4.png" class="img level6-images">
+                </div>
+                <div class="level7-images image-grid hide" id="level7-images">
+                    <img src="images/img7-1.png" class="img level7-images">
+                    <img src="images/img7-2.png" class="img level7-images">
+                    <img src="images/img7-3.png" class="img level7-images">
+                    <img src="images/img7-4.png" class="img level7-images">
+                </div>
+                <div class="level8-images image-grid hide" id="level8-images">
+                    <img src="images/img8-1.png" class="img level8-images">
+                    <img src="images/img8-2.png" class="img level8-images">
+                    <img src="images/img8-3.png" class="img level8-images">
+                    <img src="images/img8-4.png" class="img level8-images">
+                </div>
+                <div class="level9-images image-grid hide" id="level9-images">
+                    <img src="images/img9-1.png" class="img level9-images">
+                    <img src="images/img9-2.png" class="img level9-images">
+                    <img src="images/img9-3.png" class="img level9-images">
+                    <img src="images/img9-4.png" class="img level9-images">
+                </div>
+                <div class="level10-images image-grid hide" id="level10-images">
+                    <img src="images/img10-1.png" class="img level10-images">
+                    <img src="images/img10-2.png" class="img level10-images">
+                    <img src="images/img10-3.png" class="img level10-images">
+                    <img src="images/img10-4.png" class="img level10-images">
+                </div>
+            </div>
+
+            <div class="content-container">     
+                <div class="question-text hide" id="question-text">_ _ _ _ _ _ _ _ _</div>
+                <div class="hint-text hide" id="hint-text">HINT:  I _ _ _ U _ _ V _ </div>
+            </div>
+
+            <div class="actions-container">
+                <input type="text" class="answer-box hide" id="answer-box" placeholder="ENTER YOUR ANSWER HERE" onkeyup="this.value = this.value.toUpperCase()">
+                <div class="buttons-container">
+                    <button class="hint-btn btn hide" id="hint-btn" onclick="showHint()">HINT</button>
+                    <button class="submit-btn btn hide" id="submit-btn" onclick="submitAnswer()">SUBMIT</button>
+                </div>
+            </div>
+        </div>
+
+            <div class="overlay end-screen" id="pass-end-screen">
+                <img src="assets/token.png" class="token-img">
+                <div class="end-message">Congratulations! You have earned the</div>
+                <div class="end-title">THE BENILDEAN KEYCHAIN!</div>
+                <div class="end-message"> The secret code for the next Station is <b>BENILDEAN!</b> the expedition has ended and you can click the button bellow to head back to the station menu!</div>
+                <a href="https://interaktiv.benilde.edu.ph/?page_id=19999"><button class="menu-btn" id="menu-btn"><img class="menu-btn-img" src="assets/menu-btn.png"></button></a>
+            </div>
+    
+            <div class="overlay end-screen" id="fail-end-screen">
+                <div class="end-title">PLEASE TRY AGAIN</div>
+                <div class="end-message">You were unable to reach the minimum passing score. Refresh your the window to try again!</div>
+            </div>
+
+        </div>
+    </body>
+</html>
